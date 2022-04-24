@@ -19,9 +19,10 @@
     margin: 0;
     color: white;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-    font-size: 32px;
+    font-size: 75px;
     font-weight: bold;
     text-align: center;
+    font-family: emoji;
   }
 
 .banner body,html{
@@ -35,3 +36,7 @@
   text-align: center;
   min-height: 100vh;
 }
+.typed-js {
+    min-height: 33.6px;
+    font-family: fantasy;
+  }
