@@ -3,8 +3,8 @@
     <h1><strong>Save any kind of movies</strong></h1>
   </div>
 </div>
-<br>
 <%# Search form %>
+<div class="container py-5">
 <div class="input-group rounded">
   <input type="search" class="form-control rounded" placeholder="Search Movie" aria-label="Search movie" aria-describedby="search-addon" />
   <span class="input-group-text border-0" id="search-addon">
@@ -13,7 +13,7 @@
 </div>
 
 <%# Cards grid %>
-<div class="container py-5">
+<br>
   <div class="row">
     <% @lists.each do |list| %>
       <div class="co-12 col-sm-6 col-md-4">
